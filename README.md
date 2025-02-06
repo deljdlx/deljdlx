@@ -1,9 +1,13 @@
 ## Hi there 👋
 
-![Stats GitHub](https://github-readme-stats.vercel.app/api?username=deljdlx&show_icons=true&theme=dark)
+![Stats GitHub](https://github-readme-stats.vercel.app/api?username=deljdlx&show_icons=true)
+
+
 
 
 <!--
+![Stats GitHub](https://github-readme-stats.vercel.app/api?username=deljdlx&show_icons=true&theme=dark)
+
 **deljdlx/deljdlx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
