@@ -1,9 +1,3 @@
-## Hi there 👋
-
-![Stats GitHub](https://github-readme-stats.vercel.app/api?username=deljdlx&show_icons=true&count_private=true)
-
-
-
 
 
 <!--
