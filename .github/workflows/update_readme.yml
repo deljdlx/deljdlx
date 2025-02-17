@@ -37,6 +37,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: Commit and push changes
         run: |
+          cd /github/workspace
           git add README.md
           git commit -m "Auto-update README [skip ci]" || echo "No changes to commit"
           git push origin main
