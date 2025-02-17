@@ -41,6 +41,12 @@ A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Ga
 
 👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
 
+### [Small match three game](https://github.com/deljdlx/dc-match3)
+
+A match 3 game in React. Context usage should be replaced by zustand
+
+👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
+
 <!--</DEMOS>-->
 
 <!--<MISC>-->
