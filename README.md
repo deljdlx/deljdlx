@@ -20,11 +20,6 @@ Welcome to my GitHub! I've been developing and optimizing high-impact web applic
 
 <!--<DEMOS>-->
 ## 📌 Demos
-
-### [🍄 Game of life in a React old fashion way](https://github.com/deljdlx/dc-gameoflife)
-
-👓 Demo: [https://gameoflife.jlb.ninja/](https://gameoflife.jlb.ninja/)
-
 <!--</DEMOS>-->
 
 <!--<MISC>-->
