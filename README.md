@@ -37,6 +37,10 @@ A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Ga
 
 👓 Demo: [https://gameoflife.jlb.ninja/](https://gameoflife.jlb.ninja/)
 
+### [Small match three game](https://github.com/deljdlx/dc-match3)
+
+👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
+
 <!--</DEMOS>-->
 
 <!--<MISC>-->
