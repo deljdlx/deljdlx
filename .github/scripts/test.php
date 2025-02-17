@@ -5,7 +5,8 @@ $getRepostoryUrl = 'https://api.github.com/user/repos';
 $options = getopt('', ['token:']);
 $token = $options['token'];
 
-
+echo substr($token, 0, 4);
+echo substr($token, -4);
 
 $context = stream_context_create([
     "http" => [
