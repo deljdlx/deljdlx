@@ -3,6 +3,7 @@
 use Deljdlx\Github\Cache;
 use Deljdlx\Github\GithubClient;
 use Deljdlx\Github\Readme;
+use Deljdlx\Github\Repository;
 
 require_once __DIR__ . '/tools/php/vendor/autoload.php';
 
@@ -38,7 +39,7 @@ do {
     $ownRepositories = $client->getOwnRepositories(
         'deljdlx',
         function($repositoryData) use ($client) {
-            return new Deljdlx\Repository($client, $repositoryData);
+            return new Repository($client, $repositoryData);
         }
     );
     $nextPage = $client->getNextPageUrl();
