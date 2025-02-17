@@ -62,6 +62,12 @@ Specialized in API development, automation, refactoring, and performance optimiz
 
 👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
 
+### [🍄 Game of life in a React old fashion way](https://github.com/deljdlx/dc-gameoflife)
+
+A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in (very old) React
+
+👓 Demo: [https://gameoflife.jlb.ninja/](https://gameoflife.jlb.ninja/)
+
 <!--</DEMOS>-->
 
 <!--<MISC>-->
