@@ -58,6 +58,10 @@ Specialized in API development, automation, refactoring, and performance optimiz
 
 👓 Demo: [https://gameoflife.jlb.ninja/](https://gameoflife.jlb.ninja/)
 
+### [Small match three game](https://github.com/deljdlx/dc-match3)
+
+👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
+
 <!--</DEMOS>-->
 
 <!--<MISC>-->
