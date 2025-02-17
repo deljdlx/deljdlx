@@ -22,4 +22,4 @@ jobs:
       - name: Test PHP
         run: php -v
       - name: Run PHP script
-        run: php .github/scripts/test.php --token=${{ secrets.GITHUB_TOKEN }}
+        run: php .github/scripts/test.php --token=${{ secrets.ACTION_TOKEN }}
