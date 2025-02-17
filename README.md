@@ -37,7 +37,6 @@ A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Ga
 
 👓 Demo: [https://gameoflife.jlb.ninja/](https://gameoflife.jlb.ninja/)
 
-hello world
 <!--</DEMOS>-->
 
 

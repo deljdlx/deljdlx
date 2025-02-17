@@ -1,6 +1,6 @@
 <?php
 
-namespace Deljdlx;
+namespace Deljdlx\Github;
 
 use Exception;
 
@@ -9,8 +9,10 @@ class Repository
     public readonly array $repositoryData;
     private GithubClient $client;
 
-    public function __construct(GithubClient $client, array $repositoryData)
-    {
+    public function __construct(
+        GithubClient $client,
+        array $repositoryData
+    ) {
         $this->client = $client;
         $this->repositoryData = $repositoryData;
     }

@@ -33,12 +33,26 @@ jobs:
       - name: Install dependencies
         run: |
           apt-get update && apt-get install -y git curl jq
+
       - name: Test PHP
         run: php -v
-      - name: Run PHP script
+
+      - name: Install Composer
         run: |
           curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-          cd .github/scripts && composer install
+
+      - name: Clone required repositories
+        run: |
+          cd .github/scripts
+          git clone https://github.com/deljdlx/github-tools.git tools
+          cd tools/php
+          composer install
+          cd ../..
+          cd ../..
+
+      - name: Run PHP script
+        run: |
+          cd .github/scripts
           php update-readme.php --token=${{ secrets.ACTION_TOKEN }}
           cd ../..
 

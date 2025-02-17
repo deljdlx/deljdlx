@@ -1,7 +1,7 @@
 <?php
-namespace Deljdlx;
+namespace Deljdlx\Github;
 
-use Deljdlx\Interfaces\Cache;
+use Deljdlx\Github\Interfaces\Cache;
 use Exception;
 
 class GithubClient
@@ -18,6 +18,25 @@ class GithubClient
     {
         $this->token = $token;
         $this->cacheDriver = $cacheDriver;
+    }
+
+    public function clone($repositoryName, $path): RepositoryManager
+    {
+        $url = sprintf(
+            'https://%s@github.com/%s.git',
+            $this->token,
+            $repositoryName
+        );
+
+        $command = sprintf(
+            'git clone %s %s',
+            $url,
+            $path
+        );
+        exec($command, $output, $returnVar);
+        $manager = new RepositoryManager($this, $path);
+
+        return $manager;
     }
 
 

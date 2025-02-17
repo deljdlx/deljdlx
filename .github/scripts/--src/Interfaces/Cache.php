@@ -1,5 +1,5 @@
 <?php
-namespace Deljdlx\Interfaces;
+namespace Deljdlx\Github\Interfaces;
 
 interface Cache
 {

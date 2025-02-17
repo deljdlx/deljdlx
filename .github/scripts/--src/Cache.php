@@ -1,5 +1,5 @@
 <?php
-namespace Deljdlx;
+namespace Deljdlx\Github;
 
 use Exception;
 

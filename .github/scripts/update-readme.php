@@ -1,15 +1,16 @@
 <?php
 
-use Deljdlx\Cache;
-use Deljdlx\GithubClient;
-use Deljdlx\Readme;
+use Deljdlx\Github\Cache;
+use Deljdlx\Github\GithubClient;
+use Deljdlx\Github\Readme;
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/tools/php/vendor/autoload.php';
 
 
 
 $options = getopt('', ['token:']);
 $token = $options['token'];
+
 
 $readmePath = __DIR__ . '/../../README.md';
 $buffer = file_get_contents($readmePath);
@@ -24,6 +25,25 @@ if(!is_dir($cachePath)) {
 
 $client = new GithubClient($token, $cacheDriver);
 $hasMore = false;
+
+
+$repositoryPath = __DIR__ . '/deljdlx';
+if(is_dir($repositoryPath)) {
+    exec('rm -rf ' . $repositoryPath);
+}
+
+$manager = $client->clone('deljdlx/deljdlx', $repositoryPath);
+
+$readmePath = $repositoryPath . '/README.md';
+$readme = new Readme(file_get_contents($readmePath));
+$readme->appendToPart('DEMOS', 'hello world');
+file_put_contents($readmePath, $readme->compile());
+$manager->add($readmePath);
+$manager->commit('Update README.md - test');
+$manager->push();
+
+echo __FILE__.':'.__LINE__; exit();
+
 
 $skips = [
     'phi-',
