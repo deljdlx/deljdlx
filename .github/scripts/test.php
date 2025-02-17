@@ -15,7 +15,15 @@ $context = stream_context_create([
 $json = file_get_contents($getRepostoryUrl, false, $context);
 $repositories = json_decode($json, true);
 
-print_r($repositories);
+$ownRepositories = [];
+
+foreach ($repositories as $repository) {
+    if ($repository['owner']['login'] === 'deljdlx') {
+        $ownRepositories[] = $repository;
+    }
+}
+
+print_r($ownRepositories);
 
 
 
