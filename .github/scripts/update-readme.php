@@ -7,7 +7,9 @@ use Deljdlx\Github\Repository;
 
 require_once __DIR__ . '/tools/php/vendor/autoload.php';
 
+return;
 
+// following code is not executed ; was used to test github api
 
 $options = getopt('', ['token:']);
 $token = $options['token'];
