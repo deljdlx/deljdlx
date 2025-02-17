@@ -26,25 +26,6 @@ if(!is_dir($cachePath)) {
 $client = new GithubClient($token, $cacheDriver);
 $hasMore = false;
 
-
-$repositoryPath = __DIR__ . '/deljdlx';
-if(is_dir($repositoryPath)) {
-    exec('rm -rf ' . $repositoryPath);
-}
-
-$manager = $client->clone('deljdlx/deljdlx', $repositoryPath);
-
-$readmePath = $repositoryPath . '/README.md';
-$readme = new Readme(file_get_contents($readmePath));
-$readme->appendToPart('DEMOS', 'hello world');
-file_put_contents($readmePath, $readme->compile());
-$manager->add($readmePath);
-$manager->commit('Update README.md - test');
-$manager->push();
-
-echo __FILE__.':'.__LINE__; exit();
-
-
 $skips = [
     'phi-',
     'plank',
