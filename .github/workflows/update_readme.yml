@@ -21,6 +21,10 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
           token: ${{ secrets.ACTION_TOKEN }}
+      - name: Check path before running
+        run: |
+          pwd
+          ls -al
       - name: Install dependencies
         run: |
           apt-get update && apt-get install -y git curl jq
@@ -31,13 +35,16 @@ jobs:
           curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
           cd .github/scripts && composer install
           php update-readme.php --token=${{ secrets.ACTION_TOKEN }}
+          cd ../..
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Check before commit
+        run: ls -al
       - name: Commit and push changes
         run: |
-          cd /github/workspace
           git add README.md
           git commit -m "Auto-update README [skip ci]" || echo "No changes to commit"
           git push origin main
+
