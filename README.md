@@ -31,6 +31,16 @@ A proof of concept for pure DOM 3D rendering.
 
 👓 Demo: [https://webdrop.jlb.ninja/](https://webdrop.jlb.ninja/)
 
+### [Game of life in a React old fashion way](https://github.com/deljdlx/dc-gameoflife)
+
+A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in (very old) React
+
+👓 Demo: [https://gameoflife.jlb.ninja/](https://gameoflife.jlb.ninja/)
+
+### [Hello I am Julien Delsescaux](https://github.com/deljdlx/deljdlx)
+
+👓 Demo: [https://displayblock.jlb.ninja/](https://displayblock.jlb.ninja/)
+
 <!--</DEMOS>-->
 
 
