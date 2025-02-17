@@ -54,6 +54,9 @@ Specialized in API development, automation, refactoring, and performance optimiz
 
 <!--<DEMOS>-->
 ## 📌 Demos
+### [🍄 Game of life in a React old fashion way](https://github.com/deljdlx/dc-gameoflife)
+
+👓 Demo: [https://gameoflife.jlb.ninja/](https://gameoflife.jlb.ninja/)
 
 <!--</DEMOS>-->
 
