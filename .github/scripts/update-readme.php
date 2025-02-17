@@ -28,6 +28,7 @@ $hasMore = false;
 $skips = [
     'phi-',
     'plank',
+    'oneshot',
 ];
 
 $demoBuffer= '';
@@ -55,15 +56,20 @@ do {
 
 
         if($demoUrl) {
-            // echo $repository->getFullName() . PHP_EOL;
-            // echo 'Demo: ' . $demoUrl . PHP_EOL;
-            // echo "---------------------------------------------" . PHP_EOL;
 
-            $demoBuffer = '### [' . $repository->getName() . '](' . $repository->getUrl() . ')' . PHP_EOL;
-            $demoBuffer .= 'Demo: [' . $demoUrl . '](' . $demoUrl . ')' . PHP_EOL;
+            $foreignRawReadme = $repository->getReadme();
+
+            $description = '';
+            if($foreignRawReadme) {
+                $foreingReadme = new Readme($foreignRawReadme);
+                $description = $foreingReadme->getPart('SHORT-PRESENTATION');
+            }
+
+            $title = ($foreingReadme->getTitle() !== false) ? $foreingReadme->getTitle() : $repository->getName();
+            $demoBuffer = '### [' . $title . '](' . $repository->getUrl() . ')' . PHP_EOL;
+            $demoBuffer .= $description . PHP_EOL;
+            $demoBuffer .= '👓 Demo: [' . $demoUrl . '](' . $demoUrl . ')' . PHP_EOL;
             $readme->appendToPart('DEMOS', $demoBuffer);
-
-
         }
 
 
@@ -75,16 +81,3 @@ $readme->appendToPart('DEMOS', $demoBuffer);
 file_put_contents($readmePath, $readme->compile());
 
 echo $readme->compile();
-
-
-
-
-
-// if($client->hasNextPage()) {
-//     $nextPage = $client->getNextPage();
-//     $ownRepositories = array_merge($ownRepositories, $nextPage);
-// }
-
-// echo json_encode($ownRepositories, JSON_PRETTY_PRINT, JSON_UNESCAPED_UNICODE);
-
-

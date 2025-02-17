@@ -12,10 +12,18 @@ class Readme
         $this->parse($content);
     }
 
+    public function getTitle(): string|false
+    {
+        $pattern = '`# ([^\n]+?)\n`';
+        preg_match($pattern, $this->content, $matches);
+        return $matches[1] ?? false;
+    }
+
     public function getContent(): string
     {
         return $this->content;
     }
+
 
     public function appendToPart(
         string $partName,

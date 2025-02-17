@@ -21,8 +21,6 @@ Welcome to my GitHub! I've been developing and optimizing high-impact web applic
 
 <!--<DEMOS>-->
 ## 📌 Demos
-### [dc-webdrop](https://github.com/deljdlx/dc-webdrop)
-Demo: [https://webdrop.jlb.ninja/](https://webdrop.jlb.ninja/)
 
 <!--</DEMOS>-->
 
@@ -30,6 +28,28 @@ Demo: [https://webdrop.jlb.ninja/](https://webdrop.jlb.ninja/)
 
 <!--<MISC>-->
 <!--</MISC>-->
+
+<!--
+```mermaid
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+```
+//-->
 
 
 
