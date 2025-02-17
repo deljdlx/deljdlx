@@ -7,7 +7,6 @@ Welcome to my GitHub! I've been developing and optimizing high-impact web applic
 
 <!--</PRESENTATION>-->
 
-
 <!--<WORKING-ON> -->
 ## 🛠️ What I'm working on:
 
