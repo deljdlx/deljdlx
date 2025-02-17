@@ -37,10 +37,6 @@ A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Ga
 
 👓 Demo: [https://gameoflife.jlb.ninja/](https://gameoflife.jlb.ninja/)
 
-### [Hello I am Julien Delsescaux](https://github.com/deljdlx/deljdlx)
-
-👓 Demo: [https://displayblock.jlb.ninja/](https://displayblock.jlb.ninja/)
-
 <!--</DEMOS>-->
 
 

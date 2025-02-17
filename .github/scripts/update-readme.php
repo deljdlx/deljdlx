@@ -29,6 +29,7 @@ $skips = [
     'phi-',
     'plank',
     'oneshot',
+    'deljdlx',
 ];
 
 $demoBuffer= '';
