@@ -7,14 +7,11 @@ $token = $options['token'];
 
 
 
-//curl -H "Authorization: token YOUR_PERSONAL_ACCESS_TOKEN" \
-//     "https://api.github.com/user/repos?visibility=all&affiliation=owner&per_page=100"
-
-
 $context = stream_context_create([
     "http" => [
-        "header" => "User-Agent: PHP\n" .
-            "Authorization: token $token\n"
+        "header" => "User-Agent: PHP\r\n" .
+            "Authorization: token $token\r\n" .
+            "Accept: application/vnd.github.v3+json\r\n"
     ]
 ]);
 $json = file_get_contents($getRepostoryUrl, false, $context);
