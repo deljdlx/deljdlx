@@ -67,6 +67,12 @@ A match 3 game in React. Context usage should be replaced by zustand
 
 👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
 
+### [🧊 Display block](https://github.com/deljdlx/dc-displayblock)
+
+A proof of concept for pure DOM 3D rendering.
+
+👓 Demo: [https://displayblock.jlb.ninja/](https://displayblock.jlb.ninja/)
+
 <!--</DEMOS>-->
 
 <!--<MISC>-->
