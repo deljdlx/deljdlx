@@ -22,4 +22,16 @@ jobs:
       - name: Test PHP
         run: php -v
       - name: Run PHP script
-        run: php .github/scripts/test.php --token=${{ secrets.ACTION_TOKEN }}
+        run: |
+          curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+          cd .github/scripts && composer install
+          php .github/scripts/update-readme.php --token=${{ secrets.ACTION_TOKEN }}
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Commit and push changes
+        run: |
+          git add README.md
+          git commit -m "Auto-update README [skip ci]" || echo "No changes to commit"
+          git push origin main
