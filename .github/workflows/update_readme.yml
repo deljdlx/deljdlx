@@ -29,17 +29,18 @@ jobs:
         run: |
           pwd
           ls -al
-      - name: Install dependencies
-        run: |
-          apt-get update && apt-get install -y git curl jq
-      - name: Test PHP
-        run: php -v
-      - name: Run PHP script
-        run: |
-          curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-          cd .github/scripts && composer install
-          php update-readme.php --token=${{ secrets.ACTION_TOKEN }}
-          cd ../..
+
+      # - name: Install dependencies
+      #   run: |
+      #     apt-get update && apt-get install -y git curl jq
+      # - name: Test PHP
+      #   run: php -v
+      # - name: Run PHP script
+      #   run: |
+      #     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+      #     cd .github/scripts && composer install
+      #     php update-readme.php --token=${{ secrets.ACTION_TOKEN }}
+      #     cd ../..
 
       - name: Configure Git
         run: |
@@ -50,6 +51,10 @@ jobs:
 
       - name: Fix Git safe directory issue
         run: git config --global --add safe.directory $GITHUB_WORKSPACE
+
+      - name: Set up Git authentication
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.ACTION_TOKEN }}@github.com/${{ github.repository }}
 
       - name: Commit and push changes
         run: |
