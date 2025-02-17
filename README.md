@@ -39,8 +39,6 @@ A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Ga
 
 <!--</DEMOS>-->
 
-
-
 <!--<MISC>-->
 <!--</MISC>-->
 
