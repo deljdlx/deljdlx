@@ -73,6 +73,12 @@ A proof of concept for pure DOM 3D rendering.
 
 👓 Demo: [https://displayblock.jlb.ninja/](https://displayblock.jlb.ninja/)
 
+### [🛜 Webdrop](https://github.com/deljdlx/dc-webdrop)
+
+Open url, share url, drop a file on the user avatar. That's it 🚀.
+
+👓 Demo: [https://webdrop.jlb.ninja/](https://webdrop.jlb.ninja/)
+
 <!--</DEMOS>-->
 
 <!--<MISC>-->
