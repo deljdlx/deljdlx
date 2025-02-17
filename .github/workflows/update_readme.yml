@@ -16,9 +16,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Get current path
-        run: pwd"
-
       - name: Install dependencies
         run: |
           apt-get update && apt-get install -y git curl jq
