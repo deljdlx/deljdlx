@@ -25,7 +25,7 @@ jobs:
         run: |
           curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
           cd .github/scripts && composer install
-          php .github/scripts/update-readme.php --token=${{ secrets.ACTION_TOKEN }}
+          php update-readme.php --token=${{ secrets.ACTION_TOKEN }}
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
