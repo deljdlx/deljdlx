@@ -48,6 +48,10 @@ A match 3 game in React. Context usage should be replaced by zustand
 👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
 
 hello world
+### [Game of life in a React old fashion way](https://github.com/deljdlx/dc-gameoflife)
+
+👓 Demo: [https://gameoflife.jlb.ninja/](https://gameoflife.jlb.ninja/)
+
 <!--</DEMOS>-->
 
 <!--<MISC>-->
