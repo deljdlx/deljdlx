@@ -5,8 +5,8 @@ on:
     branches:
       - main
   repository_dispatch:
-  schedule:
-    - cron: '0 * * * *'  # Exécute toutes les heures
+  # schedule:
+  #   - cron: '0 * * * *'  # Exécute toutes les heures
 
 jobs:
   update-readme:
