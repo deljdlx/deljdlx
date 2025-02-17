@@ -11,6 +11,7 @@ $token = $options['token'];
 echo strlen($token);
 echo "\n";
 echo substr($token, 0, 4);
+echo '-';
 echo substr($token, 4);
 
 $context = stream_context_create([
