@@ -22,6 +22,16 @@ Welcome to my GitHub! I've been developing and optimizing high-impact web applic
 <!--<DEMOS>-->
 ## 📌 Demos
 
+### [Display block](https://github.com/deljdlx/dc-displayblock)
+
+A proof of concept for pure DOM 3D rendering.
+
+👓 Demo: [https://displayblock.jlb.ninja/](https://displayblock.jlb.ninja/)
+
+### [Webdrop](https://github.com/deljdlx/dc-webdrop)
+
+👓 Demo: [https://webdrop.jlb.ninja/](https://webdrop.jlb.ninja/)
+
 <!--</DEMOS>-->
 
 
