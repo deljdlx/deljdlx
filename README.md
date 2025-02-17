@@ -7,6 +7,40 @@ Welcome to my GitHub! I've been developing and optimizing high-impact web applic
 
 <!--</PRESENTATION>-->
 
+
+<!--<RESUME> -->
+## 👨‍💻 Professional highlights
+
+### 🚀 Pecule.co - Architect
+Co-founder of Pecule.co, a startup providing real estate companies with a platform to tokenize real estate assets. I am responsible for the architecture and development of the platform.
+
+### 🚀 Capital.fr – Lead Developer
+Led the full-stack development and optimization of Capital.fr, a major French financial news website.
+
+- Improved performance, scalability, and backend architecture
+- Optimized database load and SEO to enhance search rankings and page speed
+
+### 🚀 RueDuCommerce.com – Software Engineer
+
+Developed and optimized product pages for a leading French e-commerce platform.
+
+Focused on SEO optimization and cache invalidation management for product pages
+
+### 🚀 Marie Claire Group – Architect
+
+Led the development of a new CMS for the Marie Claire Group, a leading French media company.
+
+- Migrated 7+ websites to the new CMS
+- Optimized backend architecture and improved the editorial workflow
+
+### 🚀 Freelance & Consulting
+
+Worked on multiple projects involving miscellaneous technologies and industries.
+Specialized in API development, automation, refactoring, and performance optimization.
+
+<!--</RESUME> -->
+
+
 <!--<WORKING-ON> -->
 ## 🛠️ What I'm working on:
 
