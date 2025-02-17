@@ -170,7 +170,7 @@ class GithubClient
         return $parsedHeaders;
     }
 
-    private function buildRepositoriesResponse(array $repositories, ?callable $factory = null, ?callable $filter): array
+    private function buildRepositoriesResponse(array $repositories, ?callable $factory = null, ?callable $filter = null): array
     {
         $response = [];
 

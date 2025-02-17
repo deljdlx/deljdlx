@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: php:8.3-cli
+      options: --workdir /github/workspace
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
