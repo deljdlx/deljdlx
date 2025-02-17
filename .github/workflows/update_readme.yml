@@ -40,12 +40,17 @@ jobs:
           cd .github/scripts && composer install
           php update-readme.php --token=${{ secrets.ACTION_TOKEN }}
           cd ../..
+
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: Check before commit
         run: ls -al
+
+      - name: Fix Git safe directory issue
+        run: git config --global --add safe.directory $GITHUB_WORKSPACE
+
       - name: Commit and push changes
         run: |
           git add README.md
