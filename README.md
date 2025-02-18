@@ -19,6 +19,8 @@
 
 
 
+
+
 ## 🧑‍💻 Software Developer & Architect | 20+ Years of Experience | Pragmatic & Creative
 
 Welcome to my GitHub! I've been developing and optimizing high-impact web applications for over 20 years. My approach is pragmatic, focused on efficiency and user experience.
@@ -41,7 +43,11 @@ Welcome to my GitHub! I've been developing and optimizing high-impact web applic
 
 
 
+
+
 <!--</PRESENTATION>-->
+
+
 
 
 
@@ -125,8 +131,12 @@ Specialized in API development, automation, refactoring, and performance optimiz
 
 
 
+
+
 ## 📌 Demos
 <!--<DEMO-deljdlx/dc-match3>-->
+
+
 
 
 
@@ -149,7 +159,11 @@ Currently using **Context API**, but should be refactored to **Zustand** for bet
 
 
 
+
+
 <!--</DEMO-deljdlx/dc-match3>-->
+
+
 
 
 
@@ -214,7 +228,13 @@ A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Ga
 
 
 
+
+
+
+
 <!--</DEMOS>-->
+
+
 
 
 
@@ -271,7 +291,13 @@ A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Ga
 
 
 
+
+
+
+
 <!--</MISC>-->
+
+
 
 
 
