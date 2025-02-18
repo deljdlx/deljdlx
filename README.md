@@ -54,19 +54,32 @@ Specialized in API development, automation, refactoring, and performance optimiz
 
 <!--<DEMOS>-->
 ## 📌 Demos
-<!--<DEMO-deljdlx/dc-match3>-->### [🕹️ Small match three game](https://github.com/deljdlx/dc-match3)
+<!--<DEMO-deljdlx/dc-match3>-->
+### [🕹️ Small match three game](https://github.com/deljdlx/dc-match3)
 
 A match 3 game in React. Context usage should be replaced by zustand
 
 👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
+
 <!--</DEMO-deljdlx/dc-match3>-->
 
 
-<!--<DEMO-deljdlx/dc-match3>-->### [🕹️ Small match three game](https://github.com/deljdlx/dc-match3)
+<!--<DEMO-deljdlx/dc-match3>-->
+### [🕹️ Small match three game](https://github.com/deljdlx/dc-match3)
 
 A match 3 game in React. Context usage should be replaced by zustand
 
 👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
+
+<!--</DEMO-deljdlx/dc-match3>-->
+
+<!--<DEMO-deljdlx/dc-match3>-->
+### [🕹️ Small match three game](https://github.com/deljdlx/dc-match3)
+
+A match 3 game in React. Context usage should be replaced by zustand
+
+👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
+
 <!--</DEMO-deljdlx/dc-match3>-->
 
 <!--</DEMOS>-->
