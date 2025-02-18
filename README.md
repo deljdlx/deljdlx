@@ -1,11 +1,17 @@
 # Hello I am Julien Delsescaux
 
 <!--<PRESENTATION>-->
+
+
 ## 🧑‍💻 Software Developer & Architect | 20+ Years of Experience | Pragmatic & Creative
 
 Welcome to my GitHub! I've been developing and optimizing high-impact web applications for over 20 years. My approach is pragmatic, focused on efficiency and user experience.
 
+
+
 <!--</PRESENTATION>-->
+
+
 
 
 <!--<RESUME> -->
@@ -53,16 +59,34 @@ Specialized in API development, automation, refactoring, and performance optimiz
 <!--</WORKING-ON> -->
 
 <!--<DEMOS>-->
+
+
 ## 📌 Demos
-<!--<DEMO-deljdlx/dc-match3>-->### [🕹️ Small match three game](https://github.com/deljdlx/dc-match3)
+<!--<DEMO-deljdlx/dc-match3>-->
+
+### [🕹️ Small match three game](https://github.com/deljdlx/dc-match3)
 A match 3 game in React. Context usage should be replaced by zustand
 👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
+
+
 <!--</DEMO-deljdlx/dc-match3>-->
+
+
+
+
 
 <!--</DEMOS>-->
 
+
+
 <!--<MISC>-->
+
+
+
+
 <!--</MISC>-->
+
+
 
 <!--
 ```mermaid
