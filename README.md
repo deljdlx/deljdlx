@@ -31,6 +31,8 @@
 
 
 
+
+
 ## 🧑‍💻 Software Developer & Architect | 20+ Years of Experience | Pragmatic & Creative
 
 Welcome to my GitHub! I've been developing and optimizing high-impact web applications for over 20 years. My approach is pragmatic, focused on efficiency and user experience.
@@ -65,7 +67,11 @@ Welcome to my GitHub! I've been developing and optimizing high-impact web applic
 
 
 
+
+
 <!--</PRESENTATION>-->
+
+
 
 
 
@@ -173,8 +179,12 @@ Specialized in API development, automation, refactoring, and performance optimiz
 
 
 
+
+
 ## 📌 Demos
 <!--<DEMO-deljdlx/dc-match3>-->
+
+
 
 
 
@@ -200,6 +210,8 @@ A simple **Match-3 game** built with **React**.
 Currently using **Context API**, but should be refactored to **Zustand** for better state management.
 
 👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
+
+
 
 
 
@@ -261,7 +273,11 @@ Currently using **Context API**, but should be refactored to **Zustand** for bet
 
 
 
+
+
 <!--<DEMO-deljdlx/dc-gameoflife>-->
+
+
 
 
 
@@ -281,6 +297,8 @@ A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Ga
 - `dangerouslySetInnerHTML` – living on the edge!
 
 👓 Demo: [https://gameoflife.jlb.ninja/](https://gameoflife.jlb.ninja/)
+
+
 
 
 
@@ -330,7 +348,11 @@ A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Ga
 
 
 
+
+
 <!--<DEMO-deljdlx/dc-displayblock>-->
+
+
 
 ### [🧊 Display block](https://github.com/deljdlx/dc-displayblock)
 
@@ -342,7 +364,11 @@ It’s **a voxel engine that refuses to acknowledge that it shouldn't exist** �
 
 
 
+
+
 <!--</DEMO-deljdlx/dc-displayblock>-->
+
+
 
 
 
@@ -361,6 +387,8 @@ It’s **a voxel engine that refuses to acknowledge that it shouldn't exist** �
 
 
 
+
+
 ### [🛜 Webdrop – Airdrop, but for the Web](https://github.com/deljdlx/dc-webdrop)
 
 Open a URL, share a URL, drag & drop a file onto a user avatar. **That’s it.** 🚀
@@ -369,6 +397,8 @@ A simple and instant way to transfer files, directly in your browser.
 No apps. No setup. Just **pure JavaScript + WebSockets + PHP (Ratchet).**
 
 👓 Demo: [https://webdrop.jlb.ninja/](https://webdrop.jlb.ninja/)
+
+
 
 
 
@@ -385,7 +415,31 @@ No apps. No setup. Just **pure JavaScript + WebSockets + PHP (Ratchet).**
 
 
 
+
+
+<!--<DEMO-deljdlx/dc-decision-tree>-->
+
+
+### [🌳 Decision Tree Builder](https://github.com/deljdlx/dc-decision-tree)
+
+Build, Simulate & Export Dynamic Decision Trees
+
+A **Proof of Concept (POC)** for an **interactive decision tree editor** with **real-time simulation** and **JSON export**.
+
+👓 Demo: [https://decision-tree.jlb.ninja/](https://decision-tree.jlb.ninja/)
+
+
+
+
+<!--</DEMO-deljdlx/dc-decision-tree>-->
+
+
+
+
+
 <!--</DEMOS>-->
+
+
 
 
 
@@ -478,7 +532,13 @@ No apps. No setup. Just **pure JavaScript + WebSockets + PHP (Ratchet).**
 
 
 
+
+
+
+
 <!--</MISC>-->
+
+
 
 
 
