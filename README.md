@@ -3,13 +3,19 @@
 <!--<PRESENTATION>-->
 
 
+
+
 ## 🧑‍💻 Software Developer & Architect | 20+ Years of Experience | Pragmatic & Creative
 
 Welcome to my GitHub! I've been developing and optimizing high-impact web applications for over 20 years. My approach is pragmatic, focused on efficiency and user experience.
 
 
 
+
+
 <!--</PRESENTATION>-->
+
+
 
 
 
@@ -61,6 +67,8 @@ Specialized in API development, automation, refactoring, and performance optimiz
 <!--<DEMOS>-->
 
 
+
+
 ## 📌 Demos
 <!--<DEMO-deljdlx/dc-match3>-->
 
@@ -75,7 +83,13 @@ A match 3 game in React. Context usage should be replaced by zustand
 
 
 
+
+
+
+
 <!--</DEMOS>-->
+
+
 
 
 
@@ -84,7 +98,13 @@ A match 3 game in React. Context usage should be replaced by zustand
 
 
 
+
+
+
+
 <!--</MISC>-->
+
+
 
 
 
