@@ -54,37 +54,6 @@ Specialized in API development, automation, refactoring, and performance optimiz
 
 <!--<DEMOS>-->
 ## 📌 Demos
-
-### [🍄 Game of life in a React old fashion way](https://github.com/deljdlx/dc-gameoflife)
-
-A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in (very old) React
-
-👓 Demo: [https://gameoflife.jlb.ninja/](https://gameoflife.jlb.ninja/)
-
-### [Small match three game](https://github.com/deljdlx/dc-match3)
-
-A match 3 game in React. Context usage should be replaced by zustand
-
-👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
-
-### [🧊 Display block](https://github.com/deljdlx/dc-displayblock)
-
-A proof of concept for pure DOM 3D rendering.
-
-👓 Demo: [https://displayblock.jlb.ninja/](https://displayblock.jlb.ninja/)
-
-### [🛜 Webdrop](https://github.com/deljdlx/dc-webdrop)
-
-Open url, share url, drop a file on the user avatar. That's it 🚀.
-
-👓 Demo: [https://webdrop.jlb.ninja/](https://webdrop.jlb.ninja/)
-
-<!--<DEMO-deljdlx/dc-match3>-->### [🕹️ Small match three game](https://github.com/deljdlx/dc-match3)
-
-A match 3 game in React. Context usage should be replaced by zustand
-
-👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
-<!--</DEMO-deljdlx/dc-match3>-->
 <!--</DEMOS>-->
 
 <!--<MISC>-->
