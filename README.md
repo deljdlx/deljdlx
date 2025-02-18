@@ -31,8 +31,8 @@ A simple **Match-3 game** built with **React**.
 Currently using **Context API**, but should be refactored to **Zustand** for better state management.
 
 👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
-<!--</DEMO-deljdlx/dc-match3>-->
 
+<!--</DEMO-deljdlx/dc-match3>-->
 
 <!--<DEMO-deljdlx/dc-gameoflife>-->
 
@@ -61,7 +61,6 @@ It’s **a voxel engine that refuses to acknowledge that it shouldn't exist** �
 
 <!--</DEMO-deljdlx/dc-displayblock>-->
 
-
 <!--<DEMO-deljdlx/dc-webdrop>-->
 
 ### [🛜 Webdrop – Airdrop, but for the Web](https://github.com/deljdlx/dc-webdrop)
@@ -84,7 +83,21 @@ Build, Simulate & Export Dynamic Decision Trees
 A **Proof of Concept (POC)** for an **interactive decision tree editor** with **real-time simulation** and **JSON export**.
 
 👓 Demo: [https://decision-tree.jlb.ninja/](https://decision-tree.jlb.ninja/)
+
 <!--</DEMO-deljdlx/dc-decision-tree>-->
+
+<!--<DEMO-deljdlx/dc-rpg-engine>-->
+
+### [🎮 RPG Engine](https://github.com/deljdlx/dc-rpg-engine)
+
+A Modest Yet Overengineered RPG Engine
+
+A browser-based RPG engine, built with **pure JavaScript, CSS & HTML**.  
+No WebGL, no Canvas, just DOM magic.
+
+👓 Demo: [https://rpg-engine.jlb.ninja/](https://rpg-engine.jlb.ninja/)
+
+<!--</DEMO-deljdlx/dc-rpg-engine>-->
 
 <!--</DEMOS>-->
 
@@ -145,8 +158,6 @@ mindmap
       Mermaid
 ```
 //-->
-
-
 
 <!--
 Here are some ideas to get you started:
