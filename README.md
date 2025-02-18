@@ -79,6 +79,12 @@ Open url, share url, drop a file on the user avatar. That's it 🚀.
 
 👓 Demo: [https://webdrop.jlb.ninja/](https://webdrop.jlb.ninja/)
 
+<!--<DEMO-deljdlx/dc-match3>-->### [🕹️ Small match three game](https://github.com/deljdlx/dc-match3)
+
+A match 3 game in React. Context usage should be replaced by zustand
+
+👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
+<!--</DEMO-deljdlx/dc-match3>-->
 <!--</DEMOS>-->
 
 <!--<MISC>-->
