@@ -38,11 +38,11 @@ Currently using **Context API**, but should be refactored to **Zustand** for bet
 
 ### [🍄 Game of life in a React old fashion way](https://github.com/deljdlx/dc-gameoflife)
 
-A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) implementation written in **(very) old-school React**, straight from the **prehistoric era of front-end development** (circa 2013).
+A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) implementation written in **(very) old-school React**, straight from the **prehistoric era of front-end development** (circa 2013).  
 
 🦖 Featuring:
-- `React.createElement(...)` – because hooks weren’t even a thing back then!
-- Inline styles like it’s **CSS apocalypse**
+- `React.createElement(...)` – because hooks weren’t even a thing back then!  
+- Inline styles like it’s **CSS apocalypse**  
 - `dangerouslySetInnerHTML` – living on the edge!
 
 👓 Demo: [https://gameoflife.jlb.ninja/](https://gameoflife.jlb.ninja/)
