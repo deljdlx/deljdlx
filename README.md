@@ -27,7 +27,7 @@ I love **building scalable systems, optimizing workflows, and creating experimen
 
 ### [🕹️ Small Match-3 Game  ](https://github.com/deljdlx/dc-match3)
 
-A simple **Match-3 game** built with **React**.
+A simple **Match-3 game** built with **React**.  
 Currently using **Context API**, but should be refactored to **Zustand** for better state management.
 
 👓 Demo: [https://match3.jlb.ninja/](https://match3.jlb.ninja/)
