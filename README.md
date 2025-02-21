@@ -53,7 +53,7 @@ A [Conway game of life implemention](https://en.wikipedia.org/wiki/Conway%27s_Ga
 
 ### [🧊 Display block](https://github.com/deljdlx/dc-displayblock)
 
-🚀 A **3D "voxel" rendering engine**, built **entirely from scratch** using **only JavaScript, CSS, and HTML**.
+🚀 A **3D "voxel" rendering engine**, built **entirely from scratch** using **only JavaScript, CSS, and HTML**.  
 
 It’s **a voxel engine that refuses to acknowledge that it shouldn't exist** 😆.
 
