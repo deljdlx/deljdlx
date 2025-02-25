@@ -82,7 +82,7 @@ No apps. No setup. Just **pure JavaScript + WebSockets + PHP (Ratchet).**
 
 Build, Simulate & Export Dynamic Decision Trees
 
-A **Proof of Concept (POC)** for an **interactive decision tree editor** with **real-time simulation** and **JSON export**.
+A **Proof of Concept** for an **interactive decision tree editor** with **real-time simulation** and **JSON export**.
 
 👓 Demo: [https://decision-tree.jlb.ninja/](https://decision-tree.jlb.ninja/)
 
