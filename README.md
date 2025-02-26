@@ -10,14 +10,6 @@ I love **building scalable systems, optimizing workflows, and creating experimen
 <!--</PRESENTATION>-->
 
 <!--<WORKING-ON> -->
-## 🛠️ What I'm working on:
-
-- Web Development: PHP (Laravel, Symfony), TypeScript (React, Next.js)
-- Cloud & DevOps: Docker, Kubernetes (K3s)
-- AI : RAG, Langflow
-- Automation: GitHub Actions,  Bash scripts, N8N
-- No/low code: Directus
-
 <!--</WORKING-ON> -->
 
 <!--<DEMOS>-->
