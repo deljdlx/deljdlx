@@ -103,6 +103,16 @@ Container Kingdom is an interactive visualization tool for Docker containers, us
 
 <!--</DEMO-deljdlx/dc-container-kingdom>-->
 
+<!--<DEMO-deljdlx/dc-paris-toilets>-->
+
+### [🚻 Paris public toilets](https://github.com/deljdlx/dc-paris-toilets)
+
+A microsite to help Parisians and tourists find public toilets in Paris.
+
+👓 Demo: [https://dc-paris-toilets.jlb.ninja/](https://dc-paris-toilets.jlb.ninja/)
+
+<!--</DEMO-deljdlx/dc-paris-toilets>-->
+
 <!--</DEMOS>-->
 
 <!--<RESUME> -->
