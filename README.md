@@ -51,7 +51,7 @@ Some updates were made to improve UI and UX, but the core code is still **pure R
 
 It’s **a voxel engine that refuses to acknowledge that it shouldn't exist** 😆.
 
-👓 Demo: [https://displayblock.jlb.ninja/](https://displayblock.jlb.ninja/)
+👓 Demo: [https://displayblock.deljdlx.fr/](https://displayblock.deljdlx.fr/)
 
 <!--</DEMO-deljdlx/dc-displayblock>-->
 
