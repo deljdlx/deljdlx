@@ -109,7 +109,7 @@ Container Kingdom is an interactive visualization tool for Docker containers, us
 
 A microsite to help Parisians and tourists find public toilets in Paris.
 
-👓 Demo: [https://paris-toilets.jlb.ninja/](https://paris-toilets.jlb.ninja/)
+👓 Demo: [https://paris-toilets.deljdlx.fr/](https://paris-toilets.deljdlx.fr/)
 
 <!--</DEMO-deljdlx/dc-paris-toilets>-->
 
